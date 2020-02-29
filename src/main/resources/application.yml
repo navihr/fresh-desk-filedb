@@ -1,0 +1,23 @@
+server:
+  port: ${port:8080}
+filedb:
+  version: 1.0
+  corsConfig:
+    allowedOrgin: '*'
+    allowedMethods: GET,POST,PUT,DELETE,HEAD
+    allowedCredentials: false
+    maxAge: 3600
+  swagger:
+    enabled: true
+    title: File DB App Api
+    description: File DB App Api
+    useDefaultResponseMessages: false
+    enableUrlTemplating: false
+    deepLinking: true
+    defaultModelsExpandDepth: 1
+    defaultModelExpandDepth: 1
+    displayOperationId: false
+    displayRequestDuration: false
+    filter: false
+    maxDisplayedTags: 0
+    showExtensions: false
