@@ -16,7 +16,7 @@
 
     <properties>
         <java.version>1.8</java.version>
-        <jackson-faster-version>2.10.2</jackson-faster-version>
+        <jackson-faster-version>2.12.7.1</jackson-faster-version>
         <swagger-version>2.9.2</swagger-version>
     </properties>
 
